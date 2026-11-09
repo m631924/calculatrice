@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a5a3a3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+#container {
+    /* background-color: #93C572; */
+    background-color: #59c6d0;
+    /*background-color: #f6c2e3; */
+    /* background-color: #fff6aa; */
+    border-radius: 15px;
+    border-style:solid;
+    border-color: #1b3a06;
+    padding: 20px;
+    align-items: center;
+    font-family: Georgia, Serif;
+   
+}
+
+h1 {font-family: Baskerville;
+    font-size: 36px;
+    padding-bottom: 10px;
+
+}
+h2 {font-family: 'Gill Sans MT', Calibri;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    color: rgb(129, 76, 22);
+    align-items:flex-start;}
+
+#outdisplay {
+    padding-bottom: 10px;
+}
+#display {
+ font-size: 28px;
+ background-color: skyblue;
+ padding-left: 6px;
+ padding-right: 6px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ display: flex;
+ justify-content: right;
+ border-style:solid;
+ border-width: 1px;
+
+}
+
+button {
+    height: 32px;
+    width: 55px;
+    background-color: #e998cb;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.doublebutton {
+    width: 116px;
+    background-color: #e660b5;
+    background-color: #e9f288;
+}
+.linebutton {
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    gap:6px;
+}
+#clear {
+    font-size: 16px;
+    background-color: #e9f288;
+}
+
